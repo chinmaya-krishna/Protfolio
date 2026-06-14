@@ -47,11 +47,6 @@ function Home() {
         </div>
 
         {/* Scroll indicator */}
-        <div className="absolute bottom-8 animate-bounce">
-          <div className="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center pt-2">
-            <div className="w-1 h-3 bg-blue-400 rounded-full"></div>
-          </div>
-        </div>
       </div>
 
       {/* Stats Section */}
