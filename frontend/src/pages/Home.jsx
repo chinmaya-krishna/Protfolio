@@ -28,14 +28,21 @@ function Home() {
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-wrap gap-4 justify-center mb-12">
-          <Link to="/projects" className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 px-8 py-3 rounded-full font-semibold transition shadow-lg shadow-blue-500/30">
-            View My Work
-          </Link>
-          <Link to="/contact" className="border border-blue-500 hover:bg-blue-500/20 px-8 py-3 rounded-full font-semibold transition">
-            Hire Me
-          </Link>
-        </div>
+       {/* Buttons */}
+<div className="flex flex-wrap gap-3 justify-center mb-10 relative z-10">
+  <Link
+    to="/projects"
+    className="relative z-10 bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 px-6 md:px-8 py-3 rounded-full font-semibold transition-all shadow-lg shadow-blue-500/30 text-sm md:text-base"
+  >
+    View My Work
+  </Link>
+  <Link
+    to="/contact"
+    className="relative z-10 border border-blue-500 hover:bg-blue-500/20 px-6 md:px-8 py-3 rounded-full font-semibold transition-all text-sm md:text-base"
+  >
+    Hire Me
+  </Link>
+</div>
 
         {/* Tech Stack */}
         <div className="flex flex-wrap gap-3 justify-center">
