@@ -28,10 +28,10 @@ function Footer() {
 
           {/* Right - Social */}
           <div className="flex gap-4">
-            <a href="https://github.com" target="_blank" rel="noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-full flex items-center justify-center transition">
+            <a href="https://github.com/chinmaya-krishna" target="_blank" rel="noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-full flex items-center justify-center transition">
               <span className="text-sm font-bold">Gh</span>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-full flex items-center justify-center transition">
+            <a href="https://linkedin.com/in/chinmaya-krishna" target="_blank" rel="noreferrer" className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-full flex items-center justify-center transition">
               <span className="text-sm font-bold">Li</span>
             </a>
             <a href="mailto:chinnuaithal2005@gmail.com" className="w-10 h-10 bg-gray-800 hover:bg-blue-500 rounded-full flex items-center justify-center transition">
